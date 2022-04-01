@@ -1,0 +1,28 @@
+﻿Function Login(uname,pwd)
+msgbox "Login"
+systemutil.Run(Environment("Flightpath"))
+WpfWindow("Micro Focus MyFlight Sample").WpfEdit("agentName").Set uname
+WpfWindow("Micro Focus MyFlight Sample").WpfEdit("password").SetSecure pwd
+WpfWindow("Micro Focus MyFlight Sample").WpfButton("OK").Click
+	
+End Function
+Function Closeapp()
+	msgbox "Closeapp"
+	WpfWindow("Micro Focus MyFlight Sample").Close
+	
+End Function
+Function OpenOrder(orno)
+	msgbox "OpenOrder"
+	WpfWindow("Micro Focus MyFlight Sample").WpfTabStrip("WpfTabStrip").Select "SEARCH ORDER"
+WpfWindow("Micro Focus MyFlight Sample").WpfRadioButton("byNumberRadio").Set
+WpfWindow("Micro Focus MyFlight Sample").WpfEdit("byNumberWatermark").Set orno
+WpfWindow("Micro Focus MyFlight Sample").WpfButton("SEARCH").Click
+WpfWindow("Micro Focus MyFlight Sample").WpfButton("NEW SEARCH").Click
+
+End Function
+Function UpdateOrder()
+	msgbox "UpdateOrder"
+	WpfWindow("Micro Focus MyFlight Sample").WpfComboBox("numOfTicketsCombo").Select "8"
+WpfWindow("Micro Focus MyFlight Sample").WpfButton("updateBtn").Click
+
+End Function

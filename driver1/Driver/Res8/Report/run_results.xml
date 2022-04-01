@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>The retrieve DataTable.Value operation failed. The &lt;password&gt; column does not exist.</Name>
+    <ErrorText>The retrieve DataTable.Value operation failed. The &lt;password&gt; column does not exist.</ErrorText>
+    <Description>The retrieve DataTable.Value operation failed. The &amp;lt;password&amp;gt; column does not exist.&lt;BR/&gt;Line (48): &amp;quot;Call login(datatable(&amp;quot;username&amp;quot;,&amp;quot;Action4&amp;quot;),datatable(&amp;quot;password&amp;quot;,&amp;quot;Action4&amp;quot;))&amp;quot;. </Description>
+    <StartTime>2022-03-30 07:08:23</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Call login(datatable("username","Action4"),datatable("password","Action4"))]]></Scripts>
+          <LineNo><![CDATA[48]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>c2297d00ffb842f28364d1b0429119b9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\0c928ba5-6993-4aa2-9e45-64b10c09946a.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-03-30 07:08:37</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>6770dea602244e00b9d6095a471145d4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-03-30 07:08:11</StartTime>
+    <Duration>26</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>a04f59460c3b452480c1a56218da9813</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2022-03-30 07:08:11</StartTime>
+    <Duration>26</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>ac00ea11699f4b1d91786f271a4acba0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Driver</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-03-30 07:08:09</StartTime>
+    <Duration>28</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>73eadc6a2233459593ea8d325df1712c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>00:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>sfjbs</User>
+      <CpuInfo>Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz</CpuInfo>
+      <NumberOfCores>2</NumberOfCores>
+      <TotalMemory>8191</TotalMemory>
+      <HostName>vm001</HostName>
+      <OSInfo>Windows 10 20H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res8</ResultName>
+    <RunStartTime>2022-03-30 07:08:09</RunStartTime>
+    <Timezone>00:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

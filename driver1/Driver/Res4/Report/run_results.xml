@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>The retrieve DataTable.Value operation failed. The &lt;keyword&gt; column does not exist.</Name>
+    <ErrorText>The retrieve DataTable.Value operation failed. The &lt;keyword&gt; column does not exist.</ErrorText>
+    <Description>The retrieve DataTable.Value operation failed. The &amp;lt;keyword&amp;gt; column does not exist.&lt;BR/&gt;Line (30): &amp;quot;keyword=Datatable(&amp;quot;keyword&amp;quot;,&amp;quot;Action3&amp;quot;)&amp;quot;. </Description>
+    <StartTime>2022-03-30 06:55:12</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[keyword=Datatable("keyword","Action3")]]></Scripts>
+          <LineNo><![CDATA[30]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>6f296059935746c29719ae74ec1649d5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\238de9a4-0209-45a0-ae79-3ea0bf6fce7a.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-03-30 06:55:26</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>d855050c803e4cec94be4f656255a847</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-03-30 06:55:03</StartTime>
+    <Duration>23</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2b8df239de5243838a231d4759a2dd5f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2022-03-30 06:55:02</StartTime>
+    <Duration>24</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>8ec693c267124794ad76f4d6f2a94bf0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Driver</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-03-30 06:55:01</StartTime>
+    <Duration>25</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>7e1b6fe94f354ca0b6da51b29e72bb03</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>00:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>sfjbs</User>
+      <CpuInfo>Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz</CpuInfo>
+      <NumberOfCores>2</NumberOfCores>
+      <TotalMemory>8191</TotalMemory>
+      <HostName>vm001</HostName>
+      <OSInfo>Windows 10 20H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res4</ResultName>
+    <RunStartTime>2022-03-30 06:55:01</RunStartTime>
+    <Timezone>00:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
